@@ -1,8 +1,10 @@
+
+
 body {
   text-align: center;
 }
 
-.box-position {
+/* .box-position {
   width: 100vw;
   height: 100vh;
 
@@ -48,5 +50,5 @@ h1 {
     100% {
       background-color: rgb(42, 153, 32);
     }
-  }
-
+} */
+ 
