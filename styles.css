@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+}
+
+.box-position {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+
+  background-color: black;
+  transition: height 2s;
+  animation-name: example;
+  position: relative;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: black;}  
+  to   {top: 200px; background-color: black;}  
+}
+
+h1 {
+  color: black;
+  animation-name: teste;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes teste {
+    0% {
+      background-color: black;
+    }
+    25% {
+      background-color: aqua;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: rgb(42, 153, 32);
+    }
+  }
+
